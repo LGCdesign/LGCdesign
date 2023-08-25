@@ -22,6 +22,9 @@
     height: auto;
 }
 
+.custom-column {
+    padding-right: 10%;
+}
 
 *{
     --font-general:"proxima-nova", Helvetica, Arial, sans-serif;
