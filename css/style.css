@@ -5,6 +5,24 @@
 
 
 /* variables */
+.custom-mark {
+    background-color: #09a9a9; /* Cambiar el color de resaltado */
+    border-radius: 5px; /* Aplicar bordes redondeados */
+    padding: 2px; /* Agregar un poco de espacio alrededor del resaltado */
+    display: inline; /* Para que el elemento solo tome el ancho del contenido */
+  }
+
+  .custom-underline {
+    position: relative;
+    border-bottom: 2px solid #09a9a9; /* Cambia el grosor y color del subrayado */
+  }
+
+  .custom-img {
+    max-width: 70%; /* Ajusta el valor según tu preferencia */
+    height: auto;
+}
+
+
 *{
     --font-general:"proxima-nova", Helvetica, Arial, sans-serif;
     --font-body:"proxima-nova", Helvetica, Arial, sans-serif;
